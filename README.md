@@ -13,17 +13,22 @@ The Script can take 4 arguments of which 2 are optional.
 
 ### Example:
 - Generate left and right pieces from cutting at 5 min, 35 sec from the start
-		vidcut.py test.mp4 00:05:35
+		
+	``vidcut.py test.mp4 00:05:35``
 	
 - Generate only the right side piece for all the videos in the **videos** *directory/folder*
-		vidcut.py videos 00:05:35 right
+		
+	``vidcut.py videos 00:05:35 right``
 
 - Generate only the left piece after cutting at 5 min, 35 sec before the *end of the video* (without knowing the full length of the videos)
-		vidcut.py videos 00:05:35 left rev
+	
+	``vidcut.py videos 00:05:35 left rev``
 	
 - Generate the first 10 seconds and the last 10 seconds
-		vidcut.py test.mp4 00:00:10 left
-		vidcut.py test.mp4 00:00:10 right rev
+
+	``vidcut.py test.mp4 00:00:10 left``
+	
+	``vidcut.py test.mp4 00:00:10 right rev``
 		
 
 
